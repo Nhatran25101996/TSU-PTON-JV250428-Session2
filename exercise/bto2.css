@@ -1,0 +1,22 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+p{
+    background-color: rgb(161,161,161);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    margin-right: 10px;
+}
