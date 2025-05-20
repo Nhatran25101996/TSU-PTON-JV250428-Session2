@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+    width: 700px;
+    height: 1200px;
+    padding: 0 20px;
+    border: 1px ;
+}
+.container h1{
+ border-left: 10px solid #FF6116 ;
+    padding-left: 18px;
+    margin-bottom: 20px;
+}
+   
+   
+ .img-content{
+    position: relative;
+    display: inline-block;
+}
+
+.img-text{
+  position: absolute;
+  bottom: 20%; /* cao hơn so với bottom: 0; */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 24px;       /* chữ to hơn */
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+p {
+  padding-bottom: 20px;
+}

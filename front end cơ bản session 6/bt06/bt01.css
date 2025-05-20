@@ -1,0 +1,35 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+    width: 700px;
+    height: 1200px;
+    padding: 0 20px;
+    border: 1px ;
+}
+.container h1{
+    border-left: 10px solid #FF6116 ;
+    padding-left: 18px;
+    margin-bottom: 20px;
+}
+h3:{
+    margin:20px 20px;
+}
+
+h4:nth-of-type(1){
+    color: gray;
+    margin:20px 20px;
+}
+h4:{
+    margin:20px 20px;
+}
+
+
+
+    
+
+
