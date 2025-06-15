@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+     <style>
+    body {
+      background-color: green;
+      font-family: sans-serif;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .box {
+      width: 150px;
+      height: 150px;
+      border: 4px solid black;
+      cursor: pointer;
+    }
+
+    .yellow { background-color: yellow; }
+    .green  { background-color: green; }
+    .gray   { background-color: gray; }
+  </style>
+</head>
+<body>
+
+  <h1>Change background color</h1>
+  <p>Mouse over the square</p>
+
+  <div class="container">
+    <div class="box yellow" data-color="yellow"></div>
+    <div class="box green"  data-color="green"></div>
+    <div class="box gray"   data-color="gray"></div>
+  </div>
+  <script src="./bt04.js"></script>
+  </body>
+</html>
