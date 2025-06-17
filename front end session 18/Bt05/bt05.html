@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .form input {
+      padding: 10px;
+      font-size: 16px;
+      flex: 1;
+    }
+
+    .form button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 4px;
+    }
+
+    .search {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+    }
+
+    th, td {
+      border-bottom: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .edit-btn {
+      background-color: gold;
+      border: none;
+      padding: 6px 12px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+
+    .delete-btn {
+      background-color: crimson;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Quan ly danh sach sinh vien</h1>
+    <div class="form">
+      <input type="text" id="name" placeholder="Ten sinh vien">
+      <input type="number" id="age" placeholder="Tuoi">
+      <input type="text" id="class" placeholder="Lop">
+      <button onclick="addStudent()">Them sinh vien</button>
+    </div>
+
+    <input type="text" id="search" class="search" placeholder="Tim kiem sinh vien..." oninput="renderStudents()">
+
+    <table>
+      <thead>
+        <tr>
+          <th>Tên</th>
+          <th>Tuoi</th>
+          <th>Lop</th>
+          <th>Hanh dong</th>
+        </tr>
+      </thead>
+      <tbody id="studentList"></tbody>
+    </table>
+  </div>
+  <script src="./bt05.js"></script>
+</head>
+<body>
+    
+</body>
+</html>
