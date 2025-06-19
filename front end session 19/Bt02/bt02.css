@@ -1,0 +1,40 @@
+
+.container{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rbha(0,0,0,0.1);
+    width: 900px;
+}
+h2{
+    text-align: center;
+}
+.form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+input, select, button{
+    padding: 8px;
+    font-size: 14px;
+}
+button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+button.edit,button.delete{
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor:pointer;
+}
